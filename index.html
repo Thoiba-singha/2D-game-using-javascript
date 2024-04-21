@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2D Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+
+    <div class="controls">
+        <button id="restartBtn" class="control">R</button>
+    </div>
+    
+    <div class="assets">
+        <img src="assets/img/mainbackground.jpg" alt="" id="background">
+
+        <img src="assets/img/player_fish.png" alt="" id="player_fish">
+        <img src="assets/img/smallGears.png" alt="" id="smallGears">
+
+        <audio src="assets/sounds/charge.mp3" id="charge"></audio>
+        <audio src="assets/sounds/flap1.mp3" id="flap1"></audio>
+        <audio src="assets/sounds/flap2.mp3" id="flap2"></audio>
+        <audio src="assets/sounds/flap3.mp3" id="flap3"></audio>
+        <audio src="assets/sounds/flap4.mp3" id="flap4"></audio>
+        <audio src="assets/sounds/flap5.mp3" id="flap5"></audio>
+
+        <audio src="assets/sounds/win.mp3" id="win"></audio>
+        <audio src="assets/sounds/lose.mp3" id="lose"></audio>
+
+
+
+
+    </div>
+
+    <script src="src/audio.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/obstacle.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>

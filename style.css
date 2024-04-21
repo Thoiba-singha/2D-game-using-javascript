@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#canvas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.assets{
+    display: none;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+#restartBtn{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
